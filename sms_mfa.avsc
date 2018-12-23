@@ -1,0 +1,11 @@
+{
+    "namespace": "si.rso.bicycle.schemas",
+    "type": "record",
+    "name": "SmsMfa",
+    "fields": [
+        {
+            "name": "code",
+            "type": "string"
+        }
+    ]
+}

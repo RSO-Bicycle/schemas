@@ -1,0 +1,23 @@
+{
+    "namespace": "si.rso.bicycle.schemas",
+    "type": "record",
+    "name": "Sms",
+    "fields": [
+        {
+            "name": "type",
+            "type": {
+                "type": "enum",
+                "name": "SmsType",
+                "symbols" : ["MFA"]
+            }
+        },
+        {
+            "name": "phone_number",
+            "type": "string"
+        },
+        {
+            "name": "data",
+            "type": "bytes"
+        }
+    ]
+}
