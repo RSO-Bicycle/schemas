@@ -1,0 +1,15 @@
+{
+    "namespace": "si.rso.bicycle.schemas",
+    "type": "record",
+    "name": "EmailActivateUser",
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "activateUrl",
+            "type": "string"
+        }
+    ]
+}

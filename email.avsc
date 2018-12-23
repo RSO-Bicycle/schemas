@@ -1,0 +1,23 @@
+{
+    "namespace": "si.rso.bicycle.schemas",
+    "type": "record",
+    "name": "Email",
+    "fields": [
+        {
+            "name": "type",
+            "type": {
+                "type": "enum",
+                "name": "EmailType",
+                "symbols" : ["ACTIVATE_USER"]
+            }
+        },
+        {
+            "name": "email",
+            "type": "string"
+        },
+        {
+            "name": "data",
+            "type": "bytes"
+        }
+    ]
+}
